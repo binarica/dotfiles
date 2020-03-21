@@ -6,3 +6,4 @@ Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 
 xterm*faceName: Inconsolata:size=14
+xterm*internalBorder: 8

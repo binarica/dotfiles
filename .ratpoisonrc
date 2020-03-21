@@ -9,16 +9,17 @@ definekey top M-space exec
 definekey top Print exec xfce4-screenshooter
 
 set winname title
-
+set border 0
 set font "Ubuntu Mono"
 set bargravity n
 
 bind f exec firefox
+bind m exec chromium
 bind d exec audacity
-bind s exec spotify
 bind g exec tuxguitar
 bind i exec gvim ~/.ratpoisonrc
 
 exec redshift
 exec feh --bg-fill ~/Pictures/keepitsimplewhite1280x800.jpg
 exec setxkbmap latam,us,il -option "grp:alt_shift_toggle"
+exec xterm

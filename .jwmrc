@@ -1,17 +1,19 @@
 <?xml version="1.0"?>
 <JWM>
+    <StartupCommand>setxkbmap es</StartupCommand>
+    <StartupCommand>redshift -l -34.62:-58.41</StartupCommand>
 
     <!-- The root menu. -->
     <RootMenu onroot="3">
-        <Program icon="terminal.png" label="Terminal">xterm</Program>
-        <Program icon="web-browser.png" label="Midori">midori</Program>
+        <Program icon="terminal.png" label="Terminal">x-terminal-emulator</Program>
+        <Program icon="web-browser.png" label="Firefox ESR">firefox-esr</Program>
         <Separator/>
         <Program icon="lock.png" label="Lock">
             slock
         </Program>
         <Separator/>
-        <Restart label="Restart" icon="restart.png"/>
-        <Exit label="Exit" confirm="true" icon="quit.png"/>
+        <Restart label="Restart" icon="reload.png"/>
+        <Exit label="Exit" confirm="false" icon="exit.png"/>
     </RootMenu>
 
     <!-- Options for program groups. -->
@@ -22,6 +24,10 @@
     <Group>
         <Class>Pidgin</Class>
         <Option>sticky</Option>
+    </Group>
+    <Group>
+        <Class>URxvt</Class>
+        <Option>iignore</Option>
     </Group>
     <Group>
         <Name>xterm</Name>
@@ -36,7 +42,7 @@
     <!-- Tray at the bottom. -->
     <Tray x="0" y="-1" height="25" autohide="off">
 
-        <TrayButton icon="/usr/share/jwm/jwm-red.svg">root:3</TrayButton>
+        <TrayButton icon="/usr/share/icons/gnome/scalable/places/start-here.svg">root:3</TrayButton>
         <Spacer width="2"/>
         <TrayButton label="_">showdesktop</TrayButton>
         <Spacer width="2"/>
@@ -162,7 +168,7 @@
               contained within a Desktop tag to give a specific background
               for that desktop.
          -->
-        <Background type="solid">#111111</Background>
+        <Background type="command">sh ~/.fehbg</Background>
     </Desktops>
 
     <!-- Double click speed (in milliseconds) -->

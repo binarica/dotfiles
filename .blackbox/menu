@@ -1,7 +1,9 @@
-[begin] (Menu)
-   [exec] (Xterm) {xterm -ls}
-   [exec] (Firefox ESR) {firefox-esr}
+[begin] (Blackbox)
+   [exec] (Terminal) {xterm -ls}
+   [exec] (Firefox) {firefox-esr}
+   [sep]
    [exec] (Lock) {slock}
+   [sep]
    [restart] (Restart)
    [exit] (Exit)
 [end]

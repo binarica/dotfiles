@@ -32,3 +32,16 @@ vim \
 virt-manager \
 xscreensaver \
 zsh
+
+snaps="
+bing-wall 
+gitkraken
+keepassxc
+pinta
+postman
+spotify
+sublime-text
+"
+for snap in $snaps; do
+	snap install $snap
+done

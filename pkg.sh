@@ -20,6 +20,7 @@ htop \
 jq \
 mc \
 mpv \
+mupdf-tools \
 neofetch \
 obs-studio \
 openssh-server \

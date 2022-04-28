@@ -47,3 +47,12 @@ sublime-text
 for snap in $snaps; do
 	snap install $snap
 done
+
+# Manual installs
+#code
+#dropbox
+#forticlient
+#google-chrome-stable
+#master-pdf-editor
+#microsoft-edge-stable
+#zoom

@@ -38,6 +38,7 @@ snaps="
 bing-wall 
 gitkraken
 keepassxc
+onlyoffice-desktopeditors
 pinta
 postman
 spotify

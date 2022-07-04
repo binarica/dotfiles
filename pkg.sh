@@ -24,6 +24,7 @@ mupdf-tools \
 neofetch \
 obs-studio \
 openssh-server \
+pandoc \
 python3-pip \
 remmina \
 shotwell \

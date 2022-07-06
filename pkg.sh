@@ -16,12 +16,14 @@ gnome-clocks \
 gnome-shell-pomodoro \
 gparted \
 gsmartcontrol \
+hexchat \
 htop \
 jq \
 mc \
 mpv \
 mupdf-tools \
 neofetch \
+newsboat \
 obs-studio \
 openssh-server \
 pandoc \

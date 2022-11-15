@@ -32,6 +32,7 @@ remmina \
 shotwell \
 syncthing \
 transmission \
+typecatcher \
 vim \
 virt-manager \
 xscreensaver \

@@ -5,7 +5,7 @@ Xft.hintstyle: hintslight
 Xft.rgba: rgb
 Xft.lcdfilter: lcddefault
 
-xterm*background: black
-xterm*foreground: lightgray
-xterm*faceName: monospace:size=12
-xterm*internalBorder: 8
+URxvt*background: black
+URxvt*foreground: lightgray
+URxvt*font: xft:monospace:size=12
+URxvt*internalBorder: 8

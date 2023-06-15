@@ -1,8 +1,9 @@
 [begin] (Blackbox)
-   [exec] (Terminal) {xterm -ls}
-   [exec] (Firefox) {firefox-esr}
+   [exec] (Terminal) {urxvt -ls}
+   [exec] (Web Browser) {midori}
+   [exec] (Remote Desktop) {remmina}
    [sep]
-   [exec] (Lock) {slock}
+   [exec] (Lock) {i3lock}
    [sep]
    [restart] (Restart)
    [exit] (Exit)

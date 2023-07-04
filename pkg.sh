@@ -4,39 +4,42 @@ if [ $(id -u) -ne 0 ]; then
 	exit 1
 fi
 
-apt install --no-install-recommends \
-audacity \
-bleachbit \
-caffeine \
-curl \
-fonts-cascadia-code \
-fonts-hack \
-git \
-gnome-clocks \
-gnome-shell-pomodoro \
-gparted \
-gsmartcontrol \
-hexchat \
-htop \
-jq \
-mc \
-mpv \
-mupdf-tools \
-neofetch \
-newsboat \
-obs-studio \
-openssh-server \
-pandoc \
-python3-pip \
-remmina \
-shotwell \
-syncthing \
-transmission \
-typecatcher \
-vim \
-virt-manager \
-xscreensaver \
+packages="
+audacity
+bleachbit
+caffeine
+curl
+fonts-cascadia-code
+fonts-hack
+git
+gnome-clocks
+gnome-shell-pomodoro
+gparted
+gsmartcontrol
+hexchat
+htop
+jq
+mc
+mpv
+mupdf-tools
+neofetch
+newsboat
+obs-studio
+openssh-server
+pandoc
+python3-pip
+remmina
+shotwell
+syncthing
+transmission
+typecatcher
+vim
+virt-manager
+xscreensaver
 zsh
+"
+
+apt install --no-install-recommends ${packages}
 
 snaps="
 bing-wall 

@@ -25,6 +25,7 @@ mupdf-tools
 neofetch
 newsboat
 obs-studio
+openfortivpn
 openssh-server
 pandoc
 python3-pip
@@ -58,7 +59,6 @@ done
 # Manual installs
 #code
 #dropbox
-#forticlient
 #google-chrome-stable
 #master-pdf-editor
 #microsoft-edge-stable

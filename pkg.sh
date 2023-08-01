@@ -5,11 +5,11 @@ if [ $(id -u) -ne 0 ]; then
 fi
 
 packages="
+alacritty
 audacity
 bleachbit
 caffeine
 curl
-fonts-cascadia-code
 fonts-hack
 git
 gnome-clocks
@@ -20,6 +20,7 @@ hexchat
 htop
 jq
 mc
+mlocate
 mpv
 mupdf-tools
 neofetch
@@ -36,7 +37,6 @@ transmission
 typecatcher
 vim
 virt-manager
-xscreensaver
 zsh
 "
 

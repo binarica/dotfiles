@@ -11,6 +11,7 @@ bleachbit
 caffeine
 curl
 fonts-hack
+geary
 git
 gnome-clocks
 gnome-shell-pomodoro
